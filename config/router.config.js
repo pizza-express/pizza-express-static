@@ -62,6 +62,23 @@ export default [
           },
         ],
       },
+      {
+        path: '/dishes',
+        name: 'dishes',
+        icon: 'smile',
+        routes: [
+          {
+            path: '/dishes/query',
+            name: 'query',
+            component: './dishes/DishesList',
+          },
+          {
+            path: '/dishes/create',
+            name: 'creat',
+            component: './Welcome',
+          },
+        ],
+      },
     ],
   },
 ];
