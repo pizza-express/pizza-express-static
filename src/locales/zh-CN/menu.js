@@ -4,6 +4,9 @@ export default {
   'menu.factory': '工厂管理',
   'menu.factory.query': '查看工厂',
   'menu.factory.create': '创建工厂',
+  'menu.dishes': '菜品管理',
+  'menu.dishes.query': '查看菜品',
+  'menu.dishes.create': '菜品创建',
 
   'menu.more-blocks': '更多区块',
 

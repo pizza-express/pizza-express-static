@@ -3,6 +3,7 @@ import menu from './zh-CN/menu';
 import settings from './zh-CN/settings';
 import login from './zh-CN/login';
 import factory from './zh-CN/factory';
+import dishes from './zh-CN/dishes';
 
 export default {
   'navBar.lang': '语言',
@@ -17,4 +18,5 @@ export default {
   ...settings,
   ...login,
   ...factory,
+  ...dishes,
 };
