@@ -36,11 +36,6 @@ export default [
             name: 'query',
             component: './factory/FactoryList',
           },
-          {
-            path: '/factory/create',
-            name: 'create',
-            component: './Welcome',
-          },
         ],
       },
       {
@@ -53,10 +48,17 @@ export default [
             name: 'query',
             component: './dishes/DishesList',
           },
+        ],
+      },
+      {
+        path: '/user',
+        name: '用户管理',
+        icon: 'smile',
+        routes: [
           {
-            path: '/dishes/create',
-            name: 'creat',
-            component: './Welcome',
+            path: '/user/query',
+            name: '查看用户信息',
+            component: './user/userList',
           },
         ],
       },
