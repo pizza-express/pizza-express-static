@@ -58,7 +58,7 @@ export default [
           {
             path: '/user/query',
             name: '查看用户信息',
-            component: './user/userList',
+            component: './user/UserList',
           },
         ],
       },
@@ -70,7 +70,7 @@ export default [
           {
             path: '/dishes/query',
             name: 'query',
-            component: './dishes/DishesList',
+            component: './Dishes/DishesList',
           },
           {
             path: '/dishes/create',
