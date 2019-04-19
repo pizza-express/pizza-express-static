@@ -46,7 +46,7 @@ export default [
           {
             path: '/dishes/query',
             name: 'query',
-            component: './dishes/DishesList',
+            component: './Dishes/DishesList',
           },
         ],
       },
@@ -59,23 +59,6 @@ export default [
             path: '/user/query',
             name: '查看用户信息',
             component: './user/UserList',
-          },
-        ],
-      },
-      {
-        path: '/dishes',
-        name: 'dishes',
-        icon: 'smile',
-        routes: [
-          {
-            path: '/dishes/query',
-            name: 'query',
-            component: './Dishes/DishesList',
-          },
-          {
-            path: '/dishes/create',
-            name: 'creat',
-            component: './Welcome',
           },
         ],
       },
