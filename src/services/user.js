@@ -13,5 +13,5 @@ export async function queryNotices() {
 }
 
 export async function findAll() {
-  return request('/v1/api/user');
+  return request.get('/v1/api/user');
 }

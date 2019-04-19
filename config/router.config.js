@@ -62,6 +62,18 @@ export default [
           },
         ],
       },
+      {
+        path: '/order',
+        name: 'order',
+        icon: 'smile',
+        routes: [
+          {
+            path: '/order/query',
+            name: 'query',
+            component: './order/OrderList',
+          },
+        ],
+      },
     ],
   },
 ];

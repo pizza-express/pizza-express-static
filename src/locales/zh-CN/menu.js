@@ -7,6 +7,8 @@ export default {
   'menu.dishes': '菜品管理',
   'menu.dishes.query': '查看菜品',
   'menu.dishes.create': '菜品创建',
+  'menu.order': '订单管理',
+  'menu.order.query': '订单查询',
 
   'menu.more-blocks': '更多区块',
 
